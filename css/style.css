@@ -1,0 +1,126 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url('../images/Beach-party.jpg');
+  font-family: 'Open Sans', arial, sans-serif;
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem; /* 16px */
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 2rem;  /* 32px */
+}
+
+h1, h2 {
+  font-size: 2rem; /* 32px */
+}
+
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  /* background: none; */
+}
+
+.container section:nth-child(even) {
+  background: #e6e9ea;
+}
+
+.container section:nth-child(odd) {
+  background: white;
+}
+
+/*
+ * Bobor Styles
+*/
+
+.Bobor img {
+  width: 100%;
+  /* border-radius: 20px 20px 0 0; */
+}
+
+.Bobor {
+  line-height: 0; /* The took out the tiny gap between the first two sections */
+}
+
+/*
+ * Aside Styles
+*/
+aside.right {
+  float: right;
+}
+
+aside.left {
+  float: left;
+}
+
+/*
+ * Section Styles
+
+
+section.Jason {
+  background: white;
+}
+
+section.contact {
+  background: #e6e9ea;
+}
+
+*/
+section.Jason, section.contact {
+  padding: 40px;
+}
+
+.photo {
+  border-radius: 90%
+}
+
+.footer {
+  text-align: center;
+}
